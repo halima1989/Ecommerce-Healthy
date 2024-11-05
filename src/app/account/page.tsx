@@ -1,5 +1,6 @@
-import { userType } from '@/utils/types';
+;
 import React from 'react';
+import { userType } from '../../utils/types';
 
 const page = ({ user }: { user: userType }) => {
     return (

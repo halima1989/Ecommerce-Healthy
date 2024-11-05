@@ -1,4 +1,4 @@
-import { actionType, stateType } from "@/utils/types";
+import { actionType, stateType } from "../utils/types";
 
 export const actions = {
     INC_QUANTITY: "INC_QUANTITY",

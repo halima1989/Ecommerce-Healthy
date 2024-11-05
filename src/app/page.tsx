@@ -1,13 +1,11 @@
-"use client"
-import Buttons from "@/components/Buttons";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Productslist from "@/components/ProductList";
-import SearchBar from "@/components/SearchBar";
-import Wrapper from "@/components/Wrapper";
+import Buttons from "../components/Buttons";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Productslist from "../components/ProductList";
+import Wrapper from "../components/Wrapper";
+
 
 const HomePage = () => {
-
   return (
     <main>
       <Header />
@@ -18,7 +16,6 @@ const HomePage = () => {
             Healthy
           </h1>
           <Buttons />
-          <SearchBar />
         </div>
         <p className="mt-4 text-xl text-black px-5 bg-white">
           Découvrez notre sélection exquise de plats healthy, conçus pour ravir vos papilles tout en nourrissant votre corps.
@@ -37,7 +34,6 @@ const HomePage = () => {
       <Wrapper>
         <Productslist />
       </Wrapper>
-
 
       <Footer />
     </main>

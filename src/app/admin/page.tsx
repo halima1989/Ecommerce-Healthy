@@ -1,8 +1,9 @@
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import SearchBar from '@/components/SearchBar'
+
 import Link from 'next/link'
 import React from 'react'
+import Header from '../../components/Header'
+import SearchBar from '../../components/SearchBar'
+import Footer from '../../components/Footer'
 
 const page = () => {
     return (

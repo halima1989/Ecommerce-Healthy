@@ -1,9 +1,10 @@
 "use client";
-import Cartproduct from "@/components/CartProduct";
-import Checkout from "@/components/Checkout";
-import Total from "@/components/Total";
-import { ContextCart } from "@/context/cartContext";
+
 import { useContext } from "react";
+import { ContextCart } from "../../context/cartContext";
+import Cartproduct from "../../components/CartProduct";
+import Total from "../../components/Total";
+import Checkout from "../../components/Checkout";
 
 const Cart = () => {
     const { cart } = useContext(ContextCart);
